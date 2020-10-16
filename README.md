@@ -1,3 +1,3 @@
 # WFS
-Web fullstack Projects
+A repository for Projects
 
