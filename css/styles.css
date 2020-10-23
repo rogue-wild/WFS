@@ -139,7 +139,7 @@ h2 {
 /* adding responsiveness */
 @media (max-width: 1000px) {
   .stack {
-    width: 30%;
+    width: 100%;
     position: static;
     padding-top: 30px;
   }
@@ -148,5 +148,40 @@ h2 {
     background-color: #966fff9d;
     color: white;
     text-align: center;
+  }
+
+  .nav-link {
+    font-size: 2.2rem;
+    font-weight: 100;
+  }
+
+  .dwld-btn {
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 4px gray;
+    font-size: 2.2rem;
+  }
+
+  .btn-block{
+    font-size: 2.2rem;
+  }
+
+}
+
+@media (max-width: 1600px) and (min-width:1001px){
+  .stack {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1920px) and (min-width:1601px){
+     .stack {
+       width: 30%;
+     }
+}
+
+@media (min-width: 1921px){
+  .stack {
+    width: 20%;
   }
 }
