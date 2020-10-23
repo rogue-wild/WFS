@@ -1,3 +1,3 @@
 # WFS
-A repository for Projects
+A showcase Website for Full Stack Projects.
 
