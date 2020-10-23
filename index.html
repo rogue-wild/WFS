@@ -1,42 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FullStack</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <title>FullSatck</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,900|Ubuntu:400,500&display=swap"
+    rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet"> 
+  <!-- CSS sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/e22e970ef1.js" crossorigin="anonymous"></script>
+  <!-- bootstrap-scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav>
-        <h1>
-            FullStack
-        </h1>
-        
-        <hr>
-    </nav>
-    <header>
-        <center>
-            <h1>
-                A Website for showcasing Projects.
-            </h1>
-            <hr>
-        </center>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">FullStack</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    </header>
-
-    <main>
-        <ol>
-            <li>
-                <a href="Project/LoopLab/index.html"><img src="" alt="Website Template Image"></a>
-                <h2>LoopLab</h2>
-                <p>Description of the project.</p>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
-        </ol>
-    </main>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>A showcase website for Full Stack Projects.</h1>
+          <a href="https://github.com/rogue-wild/WFS">
+            <button type="button" class="btn btn-dark btn-lg dwld-btn">
+              <i class="fab fa-github"></i> Join
+            </button>
+          </a>
+
+        </div>
+        <div class="col-lg-6">
+          <img class="stack" src="images/stack.svg" alt="stack of books" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project -->
+
+  <section id="project">
+    <h2>Latest Projects this Month</h2>
+    <p>Websites, Android Applications and more.</p>
+
+    <div class="row">
+      <div class="pro-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>LoopLab</h3>
+          </div>
+          <div class="card-footer">
+            <p>
+              <a href="Project\LoopLab\index.html"><img src="#" alt="LoopLab Main Page" /></a>
+            </p>
+            <a class="cardbt" href="https://github.com/rogue-wild/WFS/tree/main/Project/LoopLab"><button type="button"
+              class="btn btn-lg btn-outline-dark btn-block">Get Code</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pro-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mizxure</h3>
+          </div>
+          <div class="card-footer">
+            <p>
+              <a href="#"><img src="#" alt="Mizxure Book Theme" /></a>
+            </p>
+            <a class="cardbt" href="#"><button type="button"
+              class="btn btn-lg btn-outline-dark btn-block">Get Code</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pro-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Blogen</h3>
+          </div>
+          <div class="card-footer">
+            <p>
+              <a href="#"><img src="#" alt="Blogen Admin UI" /></a>
+            </p>
+            <a class="cardbt" href="#"><button type="button"
+                class="btn btn-lg btn-outline-dark btn-block">Get Code</button></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <h4>See and Join the Repository of this Website</h4>
+    <img class="join" src="https://www.flaticon.com/svg/static/icons/svg/3308/3308178.svg" alt="" />
+    <button type="button" class="btn btn-dark btn-lg dwld-btn">
+      <i class="fab fa-github"></i> Join
+    </button>
+    <img class="join" src="https://www.flaticon.com/svg/static/icons/svg/3308/3308178.svg" alt="" />
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a class="footer-link" style="text-decoration: none" href="https://www.linkedin.com/"><i
+        class="fab fa-linkedin-in fa-color1 fa-2x"></i></a>
+    <a class="footer-link" style="text-decoration: none" href="https://twitter.com/"><i
+        class="fab fa-twitter fa-color1 fa-2x"></i></a>
+    <a class="footer-link" style="text-decoration: none" href="https://www.instagram.com/?hl=en"><i
+        class="fab fa-instagram fa-color1 fa-2x"></i></a>
+    <p style="color: gray">
+      © 2020
+      <a class="bt" href="https://rogue-wild.github.io/New-CV/">
+        FullStack.</a>
+    </p>
+  </footer>
 </body>
 
 </html>
