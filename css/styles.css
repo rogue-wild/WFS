@@ -141,13 +141,13 @@ h2 {
   .stack {
     width: 100%;
     position: static;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-left: 30px;
   }
 
   #title {
     background-color: #966fff9d;
     color: white;
-    text-align: center;
   }
 
   .nav-link {
